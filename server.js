@@ -29,6 +29,17 @@ La funzione dovrebbe restituire un oggetto con tre proprietà: firstName, lastNa
 
 
 
+
+
 /************************************************
 # SVOLGIMENTO
 ************************************************/
+
+const path = require('path');
+
+const peoplePath = path.join(__dirname, 'js-utils', 'people.js');
+
+
+
+
+
