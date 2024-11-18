@@ -52,5 +52,16 @@ function generatePeople() {
     return person;
 }
 
-console.log('OUTPUT DELLE FUNZIONI COMBINATE:');
-console.log(generatePeople());
+
+
+// TEST della funzione
+
+// console.log('OUTPUT DELLE FUNZIONI COMBINATE:');
+// console.log(generatePeople());
+// console.log(generatePeople().hobbies[0]);
+
+
+
+// EXPORT della singola funzione per utilizzo su altri file senza la creazione di un OBJECT
+
+module.exports = generatePeople;

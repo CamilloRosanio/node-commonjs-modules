@@ -21,8 +21,7 @@ module.exports = generateHobbies;
 
 // TEST della funzione
 
-const myHobbiesResult = generateHobbies('calcio', 'disegno', 'nuvole', 'funghi');
+// const myHobbiesResult = generateHobbies('calcio', 'disegno', 'nuvole', 'funghi');
 
-
-console.log('OUTPUT DELLA FUNZIONE HOBBIES:');
-console.log(myHobbiesResult);
+// console.log('OUTPUT DELLA FUNZIONE HOBBIES:');
+// console.log(myHobbiesResult);

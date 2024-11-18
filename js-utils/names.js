@@ -45,11 +45,11 @@ module.exports = {
 
 // TEST della funzione
 
-const param1 = 'Luigi';
-const param2 = 'Gagliozzi';
+// const param1 = 'Luigi';
+// const param2 = 'Gagliozzi';
 
-const myNamesResult = generateNames(param1, param2);
+// const myNamesResult = generateNames(param1, param2);
 
-console.log('OUTPUT DELLA FUNZIONE NAMES:');
-console.log(myNamesResult);
-console.log(myNamesResult.firstName);
+// console.log('OUTPUT DELLA FUNZIONE NAMES:');
+// console.log(myNamesResult);
+// console.log(myNamesResult.firstName);

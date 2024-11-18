@@ -35,9 +35,19 @@ La funzione dovrebbe restituire un oggetto con tre proprietà: firstName, lastNa
 # SVOLGIMENTO
 ************************************************/
 
+// Dichiarazione del PATH (built-in)
 const path = require('path');
+const generatePeople = require('./js-utils/people');
 
+// IMPORT della funzione generatePeople
 const peoplePath = path.join(__dirname, 'js-utils', 'people.js');
+
+
+// Richiamo della funzione importata:
+console.log('RISULTATO FINALE:');
+console.log(generatePeople());
+console.log(generatePeople().firstName);
+console.log(generatePeople().hobbies[2]);
 
 
 
