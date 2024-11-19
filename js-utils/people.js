@@ -32,11 +32,13 @@ const generateHobbies = require(hobbiesPath);
 
 
 
-// Dichiarazione della funzione che sfrutta le due funzioni importate
+// Dichiarazione dei PARAMETERS
 
 const personName = 'Gianni';
 const personLastName = 'Garbuglio';
 const inputHobbies = ['pallacanestro', 'motocross', 'paracadutismo', 'gatti', 'pizza'];
+
+// Dichiarazione della funzione che sfrutta le due funzioni importate
 
 function generatePeople() {
 
