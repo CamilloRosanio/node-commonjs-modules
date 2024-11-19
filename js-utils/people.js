@@ -36,12 +36,13 @@ const generateHobbies = require(hobbiesPath);
 
 const personName = 'Gianni';
 const personLastName = 'Garbuglio';
+const inputHobbies = ['pallacanestro', 'motocross', 'paracadutismo', 'gatti', 'pizza'];
 
 function generatePeople() {
 
     const firstName = generateNames(personName, personLastName).firstName;
     const lastName = generateNames(personName, personLastName).lastName;
-    const hobbies = generateHobbies('pallacanestro', 'motocross', 'paracadutismo', 'gatti', 'pizza');
+    const hobbies = generateHobbies(inputHobbies);
 
     const person = {
         firstName: firstName,
